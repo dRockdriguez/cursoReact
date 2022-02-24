@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 const GifDetail = ({ title, url }) => {
   return (
@@ -9,4 +10,8 @@ const GifDetail = ({ title, url }) => {
   );
 };
 
+GifDetail.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
+};
 export default GifDetail;

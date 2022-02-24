@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid Should render items when call to api (useFetchGifs) 1`] = `
+<Fragment>
+  <h3>
+    pikachu
+  </h3>
+  <div
+    className="animate__animated animate__fadeIn"
+  >
+    <ol
+      className="card-grid"
+    >
+      <GifDetail
+        id="1"
+        key="11645716702649"
+        title="title"
+        url="url"
+      />
+      <GifDetail
+        id="2"
+        key="21645716702649"
+        title="title"
+        url="url"
+      />
+    </ol>
+  </div>
+</Fragment>
+`;
+
+exports[`GifGrid Should render the component 1`] = `
+<Fragment>
+  <h3>
+    pikachu
+  </h3>
+  <p>
+    Cargando...
+  </p>
+</Fragment>
+`;

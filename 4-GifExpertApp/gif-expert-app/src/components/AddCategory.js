@@ -5,12 +5,12 @@ const AddCategory = ( { setCategories }) => {
   const [inputValue, setInputValue] = useState("");
 
   const onChangeHandler = ( { target } ) => {
-    setInputValue(target.value)
+    setInputValue(target.value);
   }
 
   const submitHandler = (e) => {
     e.preventDefault();
-
+    
     if(inputValue.trim().length > 2) {
       setCategories(categories => [ inputValue, ...categories ])
       setInputValue("")

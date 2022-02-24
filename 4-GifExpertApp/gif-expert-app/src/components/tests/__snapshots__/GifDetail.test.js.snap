@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifDetail Should render the component 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="Título"
+    src="url"
+  />
+  <p>
+    Título
+     
+  </p>
+</div>
+`;

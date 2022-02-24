@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifExpertApp Should render the categories list 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__bounce"
+  >
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ul>
+    <GifGrid
+      category="cat1"
+      key="cat11645716702637"
+    />
+    <GifGrid
+      category="cat2"
+      key="cat21645716702637"
+    />
+  </ul>
+</Fragment>
+`;
+
+exports[`GifExpertApp Should render the component 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__bounce"
+  >
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ul />
+</Fragment>
+`;
