@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CounterApp } from "./components/01-useState/CounterApp";
+/*import { CounterApp } from "./components/01-useState/CounterApp";
 import { CounterCustomHook } from "./components/01-useState/CounterCustomHook";
 import { FormCustomHook } from "./components/02-useEffect/FormCustomHook";
 import { SimpleForm } from "./components/02-useEffect/SimpleForm";
@@ -13,11 +13,12 @@ import { Memorize } from "./components/06-memos/Memorize";
 import { Padre } from "./components/07-tarea-memo/Padre";
 import { TodoApp } from "./components/08-useReducer/TodoApp";
 import { MultipleCustomHooks } from "./components/examples/MultipleCustomHooks";
-import { HookApp } from "./HookApp";
+import { HookApp } from "./HookApp";*/
+import { MainApp } from "./components/09-useContext/MainApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoApp />
+    <MainApp />
   </React.StrictMode>,
   document.getElementById("root")
 );
