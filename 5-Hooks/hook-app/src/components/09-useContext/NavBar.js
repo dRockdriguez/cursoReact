@@ -23,8 +23,8 @@ export const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
-                className="nav-link"
+                className={`nav-link ${(navData) =>
+                  navData.isActive ? "active" : ""}`}
                 to="/about"
               >
                 About
@@ -32,8 +32,8 @@ export const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
-                className="nav-link"
+                className={`nav-link ${(navData) =>
+                  navData.isActive ? "active" : ""}`}
                 to="/login"
               >
                 Login
