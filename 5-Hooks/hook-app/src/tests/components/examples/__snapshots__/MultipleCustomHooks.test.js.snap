@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultipleCustomHooks Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h1>
+    Breaking bad
+  </h1>
+  <hr />
+  <blockquote
+    className="blockquote text-end"
+  >
+    <p />
+    <footer
+      className="blockquote-footer"
+    />
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente
+  </button>
+</Fragment>
+`;

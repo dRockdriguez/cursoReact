@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UseRefExample Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h1>
+    UseRefExample
+  </h1>
+  <hr />
+  <MultipleCustomHooks />
+  <button
+    className="btn btn-primary mt-8"
+    onClick={[Function]}
+  >
+    Toggle
+  </button>
+</Fragment>
+`;
