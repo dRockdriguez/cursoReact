@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList Debe mostrar el componente 1`] = `
+<Fragment>
+  <ul
+    className="list-group list-group-flash"
+  >
+    <TodoListItem
+      deleteTodo={[MockFunction]}
+      index={0}
+      key="1"
+      todo={
+        Object {
+          "description": "initial",
+          "done": false,
+          "id": 1,
+        }
+      }
+      toggleState={[MockFunction]}
+    />
+  </ul>
+</Fragment>
+`;

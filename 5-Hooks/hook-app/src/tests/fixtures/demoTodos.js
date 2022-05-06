@@ -1,7 +1,7 @@
 export const todos = [
   {
     id: 1,
-    desc: "initial",
+    description: "initial",
     done: false,
   },
 ];

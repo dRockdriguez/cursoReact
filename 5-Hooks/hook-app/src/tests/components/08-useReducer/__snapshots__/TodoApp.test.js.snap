@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoApp Debe mostrar el componente 1`] = `
+<Fragment>
+  <h1>
+    Todo APP 
+    <small>
+      (
+      0
+      )
+    </small>
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <TodoList
+        deleteTodo={[Function]}
+        todos={Array []}
+        toggleState={[Function]}
+      />
+    </div>
+    <div
+      className="col-5"
+    >
+      <TodoAdd
+        handleAddTodo={[Function]}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
