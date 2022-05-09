@@ -12,10 +12,14 @@ export const LoginScreen = () => {
       type: types.login,
       payload: { name: "David" },
     };
-    
+
     dispatch(action);
 
-    navigate("/dashboard", {
+    const lastPath = localStorage.getItem("lastPath")
+      ? localStorage.getItem("lastPath")
+      : "/dashboard";
+      
+    navigate(lastPath, {
       replace: true,
     });
   };
