@@ -10,13 +10,6 @@ jest.mock("react-router-dom", () => ({
 }));
 
 describe("HeroeScreen", () => {
-  const contextValue = {
-    user: {
-      logged: false,
-    },
-    dispatch: jest.fn(),
-  };
-
   test("No debe mostrarse si no hay heroe en la url", () => {
     const wrapper = mount(
       <MemoryRouter initialEntries={["/heroe"]}>
@@ -42,4 +35,5 @@ describe("HeroeScreen", () => {
 
     expect(wrapper.find(".row").exists()).toBe(true);
   });
+
 });

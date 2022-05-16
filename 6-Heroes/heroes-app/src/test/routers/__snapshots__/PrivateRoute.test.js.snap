@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivateRoute Debe mostrarse el componente si está auntenticado y guardar en localstorage 1`] = `
+<h1>
+  Private
+</h1>
+`;
