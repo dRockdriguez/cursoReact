@@ -57,6 +57,9 @@ export const SearchScreen = () => {
           {q === "" && (
             <div className="alert alert-info">Aún no hay resultados</div>
           )}
+          {q !== "" && !heroes.length && (
+            <div className="alert alert-info">No hay resultados para {q}</div>
+          )}
           {heroes.map((heroe) => (
             <HeroeCard key={heroe.id} {...heroe} />
           ))}
