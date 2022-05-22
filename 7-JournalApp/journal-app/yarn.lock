@@ -10155,6 +10155,11 @@
     "spdx-correct" "^3.0.0"
     "spdx-expression-parse" "^3.0.0"
 
+"validator@^13.7.0":
+  "integrity" "sha1-T5ZYuhO6jz2C7ogdNRZInqhcCFc="
+  "resolved" "https://descinet.bbva.es/artifactory/api/npm/npm/validator/-/validator-13.7.0.tgz"
+  "version" "13.7.0"
+
 "vary@~1.1.2":
   "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="
   "resolved" "https://descinet.bbva.es/artifactory/api/npm/npm/vary/-/vary-1.1.2.tgz"
