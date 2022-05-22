@@ -9695,6 +9695,11 @@
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
 
+"sweetalert2@^11.4.15":
+  "integrity" "sha1-oWgsegFuQzINXS9G5/ilpuoZlsE="
+  "resolved" "https://descinet.bbva.es/artifactory/api/npm/npm/sweetalert2/-/sweetalert2-11.4.15.tgz"
+  "version" "11.4.15"
+
 "symbol-tree@^3.2.4":
   "integrity" "sha1-QwY30ki6d+B4iDlR+5qg7tfGP6I="
   "resolved" "https://descinet.bbva.es/artifactory/api/npm/npm/symbol-tree/-/symbol-tree-3.2.4.tgz"

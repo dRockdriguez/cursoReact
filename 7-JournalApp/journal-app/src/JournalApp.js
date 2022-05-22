@@ -6,7 +6,7 @@ import { store } from "./redux/store/store";
 export const JournalApp = () => {
   return (
     <Provider store={store}>
-      <AppRouter></AppRouter>
+      <AppRouter />
     </Provider>
   );
 };
